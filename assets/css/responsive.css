@@ -1,0 +1,176 @@
+@media only screen and (max-width: 600px) {
+    .btn-green {
+        padding-left: 50px !important;
+    }
+
+    .hero-header .text-lg-start h1 {
+        font-size: 36px;
+    }
+
+    /* Our Merchandise */
+    .our-merchandise .swiper-slide-next .merchandise-item {
+        transform: scale(1);
+    }
+
+    .our-merchandise .swiper-button-prev {
+        display: none;
+    }
+    
+    .our-merchandise .swiper-button-next {
+        display: none;
+    }
+
+    /* Programs */
+    .programs .programs-item .programs-img .reg {
+        right: -10px;
+    }
+
+
+    .programs .programs-item .btn-informasi a {
+        font-size: 14px;
+      }
+
+      /* Gallery */
+
+    .gallery .swiper-button-prev {
+        display: none;
+    }
+
+    .gallery .swiper-button-next {
+        display: none;
+    }
+
+    /* Management */
+    .management .management-item .management-img img {
+        width: 120px;
+        height: 120px;
+      }
+
+      .management .swiper-button-prev {
+        display: none;
+    }
+
+    .management .swiper-button-next {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .merchandise {
+        background: linear-gradient(267.57deg, rgba(3, 79, 7, 0.93) 19.24%, rgba(255, 199, 0, 0.93) 107.56%);
+    }
+    
+    .merchandise .bg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .gallery .gallery-img img {
+        height: 18vh;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .merchandise .merchandise-item .item-content {
+        padding: 10px;
+    }
+
+    .about .bg {
+        display: none;
+    }
+
+    .about .bg-res {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    /* Our Merchandise */
+    .our-merchandise .swiper-slide-next .merchandise-item {
+        transform: scale(1);
+    }
+    
+    .our-merchandise .swiper-button-prev {
+        left: -10px;
+    }
+    
+    .our-merchandise .swiper-button-next {
+        right: -10px;
+    }
+
+    /* Gallery */
+    .gallery .swiper-button-prev {
+        left: -20px;
+    }
+
+    .gallery .swiper-button-next {
+        right: -20px;
+    }
+
+    .management .swiper-button-prev {
+        left: -20px;
+    }
+
+    .management .swiper-button-next {
+        right: -20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .programs .programs-item .programs-img .reg {
+        right: 60px;
+    }
+
+    /* Merchandise */
+    .merchandise .merchandise-item .item-content p {
+        font-size: 10px;
+    }
+
+    .merchandise .merchandise-item .item-content h4 {
+        font-size: 14px;
+    }
+
+    .merchandise .merchandise-item .item-content .btn-buy {
+        padding: 0;
+    }
+
+    .merchandise .merchandise-item .item-content .btn-buy a {
+        font-size: 10px;
+    }
+
+    /* Management */
+    .management .management-item {
+        padding: 10px;
+    }
+ .management .management-item .management-img img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .management .management-item .item-content h5 {
+    font-size: 14px;
+  }
+
+  .management .management-item .item-content p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+
+    .programs .programs-item .btn-informasi a {
+        font-size: 14px;
+    }
+
+
+    .management .management-item .management-img img {
+        width: 120px;
+        height: 120px;
+      }
+}
